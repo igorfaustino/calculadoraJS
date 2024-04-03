@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="title">
+        <h1>CALCULADORA</h1>
+    </div>
+
+    <div id="inputs">
+        <p>Primeiro Número: </p><input type="number" name="txtnumber1" id="txtnumber1" class="textType">
+        <p>Segundo Número: </p><input type="number" name="txtnumber2" id="txtnumber2" class="textType">
+    </div>
+
+    <div id="group">
+        <br>
+        <input type="button" id="soma" class="buttons" value="SOMA" onclick="soma()">
+        <br><input type="button" id="subtracao" class="buttons" value="SUBTRAÇÃO" onclick="sub()">
+        <br><input type="button" id="multiplicacao" class="buttons" value="MULTIPLICAÇÃO" onclick="mult()">
+        <br><input type="button" id="divisao" class="buttons" value="DIVISÃO" onclick="div()">
+    </div>
+
+    <br><div id="result">---</div>
+
+    <br>
+    <div id="footer">
+        &copy Igor Faustino - 2022
+    </div>
+
+    <script src="code.js"></script>
+</body>
+</html>
